@@ -1652,7 +1652,7 @@
 
 
 
-@media (max-width:500px) {
+@media (max-width:400px) {
 
 
     .header__collect {
@@ -1687,7 +1687,7 @@
 
     .resipes__left__title {
         width: 100%;
-        font-size: 40px;
+        font-size: 26px;
     }
 
     .resipes__lorem {
@@ -1705,7 +1705,8 @@
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        flex-direction: column;
+        gap: 10px;
     }
 
     .user__start {
@@ -1738,13 +1739,13 @@
     /* catigories */
 
     .catigories__text {
-        font-size: 44px;
+        font-size: 30px;
     }
 
     .catigories__right {
         margin: 5% auto;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
         row-gap: 50px;
     }
@@ -1762,7 +1763,7 @@
 
     .simple__bottom {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(3, 1fr);
     }
 
@@ -1774,6 +1775,14 @@
 
     .explanation {
         flex-direction: column;
+    }
+    .explanation__text{
+        font-size: 26px;
+    }
+    .explanation__lorem{
+       font-size: 12px;
+        line-height: 15px;
+        width: 100%;
     }
 
     .explanation__left {
@@ -1802,11 +1811,12 @@
     }
 
     .cheek__title {
-        font-size: 34px;
+        font-size: 26px;
     }
 
     .cheek__dec {
-        line-height: 20px;
+        line-height: 15px;
+        font-size: 10px;
     }
 
     .cheekcard {
@@ -1821,12 +1831,12 @@
     /* simple repet */
 
     .dimple__repet__title {
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .simple__repet__dec {
         font-size: 8px;
-        line-height: 14px;
+        line-height: 10px;
     }
 
     .simple__repet__bottom {
