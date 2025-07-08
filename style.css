@@ -67,7 +67,7 @@
     gap: 30px;
 }
 
-#bars{
+#bars {
     display: none;
 }
 
@@ -108,7 +108,7 @@
 
 }
 
-.chikken {
+.resipes__left__title {
     font-family: Inter;
     font-weight: 600;
     font-size: 64px;
@@ -196,7 +196,7 @@
 .user__end {
     width: 200px;
     height: 60px;
-   background-color: #000000;
+    background-color: #000000;
     color: white;
     display: flex;
     align-items: center;
@@ -216,10 +216,11 @@
     border-radius: 50%;
     color: black;
     background-color: white;
-    
+
 
 }
-.user__end:active{
+
+.user__end:active {
     cursor: progress;
     background-color: #2f2929;
 
@@ -228,7 +229,6 @@
 
 
 .resipes__right {
-    background-color: yellow;
     width: 50%;
     border-radius: 50px;
     transition: all 3s;
@@ -414,7 +414,7 @@
 .simple__bottom__card {
     background: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
     padding: 30px;
-    
+
     border-radius: 30px;
 }
 
@@ -811,12 +811,12 @@
 /* simple__repet */
 
 
-.simple__repet{
+.simple__repet {
     width: 90%;
     margin: 10% auto;
 }
 
-.simple__repet__top{
+.simple__repet__top {
     width: 100%;
     display: flex;
     align-items: center;
@@ -825,70 +825,74 @@
 
 }
 
-.dimple__repet__title{
+.dimple__repet__title {
     font-family: Inter;
-font-weight: 600;
-font-size: 45px;
-line-height: 100%;
-letter-spacing: -4%;
-width: 40%;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 100%;
+    letter-spacing: -4%;
+    width: 40%;
 
 }
 
 
-.simple__repet__dec{
+.simple__repet__dec {
     color: #00000099;
-font-family: Inter;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-letter-spacing: 0%;
-width: 40%;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    width: 40%;
 
 }
 
 
 
-.simple__repet__bottom{
+.simple__repet__bottom {
     display: grid;
-    grid-template-columns: repeat(4,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     grid-gap: 20px;
-   
+
 }
-.simple__repet__bottom__card{
+
+.simple__repet__bottom__card {
     position: relative;
 }
 
 
-.simple__reoet__img{
+.simple__reoet__img {
     width: 100%;
     border-radius: 30px;
 }
-.simple__repettitle{
+
+.simple__repettitle {
     font-family: Inter;
-font-weight: 600;
-font-size: 18px;
-line-height: 26px;
-letter-spacing: -4%;
-margin-top: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -4%;
+    margin-top: 20px;
 
 }
 
-.simple__repet__bottom__icons{
+.simple__repet__bottom__icons {
     display: flex;
     align-items: center;
     gap: 15px;
     margin-top: 30px;
 
 }
-.simple__repet__bottom__icon{
+
+.simple__repet__bottom__icon {
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: center;
 }
-.heart__icon{
+
+.heart__icon {
     width: 50px;
     height: 50px;
     background-color: #ffff;
@@ -899,12 +903,13 @@ margin-top: 20px;
     color: #FF6363;
     position: absolute;
 }
-.simple__repet__bottom__icon__title{
+
+.simple__repet__bottom__icon__title {
     font-family: Inter;
-font-weight: 500;
-font-size: 14px;
-line-height: 100%;
-letter-spacing: -2%;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: -2%;
 
 }
 
@@ -922,7 +927,7 @@ letter-spacing: -2%;
     justify-content: center;
     background-image: url('/cokkingimgs/inbox__bagckraund__img\ \(1\).png');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
     border-radius: 60px;
 }
 
@@ -956,9 +961,9 @@ letter-spacing: -2%;
 }
 
 
-.inbox__main{
+.inbox__main {
     width: 50%;
-    
+
 }
 
 
@@ -972,12 +977,12 @@ letter-spacing: -2%;
     border: none;
     border-radius: 25px;
     width: 90%;
-    
+
 
 }
 
 .inbox__input input {
-    border: none;   
+    border: none;
     height: 50px;
     background: none;
     font-family: Inter;
@@ -1010,7 +1015,8 @@ letter-spacing: -2%;
 
 
 }
-.inbox__btn:active{
+
+.inbox__btn:active {
     cursor: progress;
     background-color: #2e2d2d;
 
@@ -1020,13 +1026,14 @@ letter-spacing: -2%;
 
 /* footer */
 
-.footer{
+.footer {
     width: 90%;
     margin: 0 auto;
     /* background-color: red; */
-    
+
 }
-.footer__start{
+
+.footer__start {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -1034,33 +1041,36 @@ letter-spacing: -2%;
     border-bottom: 1px solid gray;
 }
 
-.footer__start__left{
+.footer__start__left {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
-.footer__title{
+
+.footer__title {
     font-family: Lobster;
-font-weight: 400;
-font-size: 24px;
-line-height: 100%;
-letter-spacing: 0%;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0%;
 
 }
-.footer__title span{
+
+.footer__title span {
     color: #FF6363;
 }
-.footer__dec{
+
+.footer__dec {
     font-family: Inter;
-font-weight: 400;
-font-size: 16px;
-line-height: 28px;
-letter-spacing: 0%;
-color: #00000099;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0%;
+    color: #00000099;
 
 }
 
-.footer__start__right{
+.footer__start__right {
     display: flex;
     gap: 30px;
     list-style-type: none;
@@ -1068,27 +1078,28 @@ color: #00000099;
     margin-top: .5;
 }
 
-.footer__end{
+.footer__end {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 3% 0;
 }
 
-.footer__end__title{
+.footer__end__title {
     font-family: Eudoxus Sans;
-font-weight: 400;
-font-size: 18px;
-line-height: 100%;
-letter-spacing: -2%;
-color: #00000099;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    color: #00000099;
 
 }
 
-.footer__end__title span{
+.footer__end__title span {
     color: gold;
 }
-.footer__icons{
+
+.footer__icons {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1096,571 +1107,1118 @@ color: #00000099;
     font-size: 20px;
 }
 
+@media (max-width:1050px) {
 
 
+    /* resips */
+    .resipes__left__title {
+        width: 100%;
+        font-size: 50px;
+    }
 
+    .resipesbuttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    .user {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
+    /* catigories */
 
-@media (max-width: 900px){
-  .nav{
-    margin: 0 auto;
-    justify-content: space-between;
-  }
-  .header__collect{
-    display: none;
-  }
-    .resipes{
+    .catigories__right {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 50px;
+    }
+
+    .cart {}
+
+    /* simpl */
+
+    .simple__card__text {
+        font-size: 20px;
+    }
+
+    #card6 {
+        display: none;
+    }
+
+    /* chefr citchen */
+
+    .explanation {
         flex-direction: column;
     }
-    .resipes__left{
+
+    .explanation__left {
+        text-align: center;
+    }
+
+    .explanation__btn {
+        margin: 2% auto;
+    }
+
+    .explanation__right img {
+        width: 100%;
+    }
+
+    /* instagram */
+
+    .cheek__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .cheekcard {
+        margin: 0 auto;
+    }
+
+    /* simple repet */
+
+    .dimple__repet__title {
+        font-size: 37px;
+    }
+
+    .simple__repet__dec {
+        font-size: 13px;
+    }
+
+    .simple__repettitle {
+        font-size: 15px;
+    }
+
+    .simple__repet__bottom__icon {
+        font-size: 10px;
+    }
+
+    .heart__icon {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* inbox */
+
+    .inbox__title {
+        width: 100%;
+        font-size: 32px;
+    }
+
+
+
+}
+
+
+@media (max-width:900px) {
+
+
+    /* resips */
+
+
+    .Recipes__top__button h3 {
+        font-size: 15px;
+    }
+
+    .resipes__left__title {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .resipes__lorem {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .resipesbuttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .user {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .user__start {
+        gap: 5px;
+    }
+
+    .user__img {
+        font-size: 8px;
+    }
+
+    .john {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .user__text {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .user__end {
+        width: 150px;
+        height: 50px;
+    }
+
+    .user__end p {
+        font-size: 12px;
+    }
+
+    /* catigories */
+
+    .catigories__text {
+        font-size: 44px;
+    }
+
+    .catigories__right {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 50px;
+    }
+
+    .cart {}
+
+    /* simpl */
+
+    .simple__card__text {
+        font-size: 16px;
+    }
+
+    #card6 {
+        display: none;
+    }
+
+    /* chefr citchen */
+
+    .explanation {
+        flex-direction: column;
+    }
+
+    .explanation__left {
+        text-align: center;
+    }
+
+    .explanation__btn {
+        margin: 2% auto;
+    }
+
+    .explanation__right img {
+        width: 100%;
+    }
+
+    .explanation__right {
+        width: 100%;
+    }
+
+    /* instagram */
+
+    .cheek__cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        row-gap: 30px;
+    }
+
+    .cheekcard {
+        margin: 0 auto;
+    }
+
+    /* simple repet */
+
+    .dimple__repet__title {
+        font-size: 30px;
+    }
+
+    .simple__repet__dec {
+        font-size: 10px;
+        line-height: 20px;
+    }
+
+    .simple__repettitle {
+        font-size: 15px;
+    }
+
+    .simple__repet__bottom__icon__title {
+        font-size: 12px;
+    }
+
+    .heart__icon {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* inbox */
+
+    .inbox__title {
+        width: 100%;
+        font-size: 26px;
+    }
+
+    .inbox__dec {
+        line-height: 20px;
+        font-size: 12px;
+    }
+
+    .inbox__input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .inbox__input input {
+        font-size: 14px;
+    }
+
+    .inbox__btn {
+        width: 140px;
+        height: 40px;
+        border-radius: 12px;
+    }
+
+
+
+}
+
+
+
+@media (max-width:700px) {
+
+
+    .header__collect {
+        display: none;
+    }
+
+
+    /* resips */
+
+
+    .resipes {
+        flex-direction: column-reverse;
+    }
+
+    .Recipes__top__button {
+        margin: 5% auto;
+    }
+
+    .Recipes__top__button h3 {
+        font-size: 13px;
+
+    }
+
+    .resipes__left {
         width: 100%;
         text-align: center;
     }
+
+    .resipes__right {
+        width: 100%;
+    }
+
+    .resipes__left__title {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .resipes__lorem {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .resipesbuttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .user {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .user__start {
+        gap: 5px;
+    }
+
+    .user__img {
+        font-size: 8px;
+    }
+
+    .john {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .user__text {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .user__end {
+        width: 150px;
+        height: 50px;
+    }
+
+    .user__end p {
+        font-size: 12px;
+    }
+
+    /* catigories */
+
+    .catigories__text {
+        font-size: 44px;
+    }
+
+    .catigories__right {
+        margin: 5% auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 50px;
+    }
+
+    .cart {
+        margin: 10% auto; 
+    }
+
+    /* simpl */
+
+    .simple__card__text {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .simple__bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #card6 {
+        display: none;
+    }
+
+    /* chefr citchen */
+
+    .explanation {
+        flex-direction: column;
+    }
+
+    .explanation__left {
+        text-align: center;
+    }
+
+    .explanation__btn {
+        margin: 2% auto;
+    }
+
+    .explanation__right img {
+        width: 100%;
+    }
+
+    .explanation__right {
+        width: 100%;
+    }
+
+    /* instagram */
+
+    .cheek__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 30px;
+    }
+
+    .cheek__title {
+        font-size: 34px;
+    }
+
+    .cheek__dec {
+        line-height: 20px;
+    }
+
+    .cheekcard {
+        margin: 0 auto;
+    }
+
+    .check__btn{
+        width: 200px;
+        height: 50px;
+    }
+
+    /* simple repet */
+
+    .dimple__repet__title {
+        font-size: 24px;
+    }
+
+    .simple__repet__dec {
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .simple__repet__bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .simple__repettitle {
+        font-size: 15px;
+    }
+
+    .simple__repet__bottom__icon__title {
+        font-size: 12px;
+    }
+
+    .heart__icon {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* inbox */
+
+    .inbox__main{
+        width: 100%;
+    }
+
+    .inbox__title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .inbox__dec {
+        line-height: 14px;
+        font-size: 8px;
+    }
+
+    .inbox__input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .inbox__input input {
+        font-size: 10px;
+    }
+
+    .inbox__btn {
+        width: 80px;
+        height: 30px;
+        border-radius: 12px;
+        font-size: 8px;
+    }
+
+    .footer__start{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer__end{
+
+    }
+
+    .footerend__tart{
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:500px) {
+
+
+    .header__collect {
+        display: none;
+    }
+
+
+    /* resips */
+
+
+    .resipes {
+        flex-direction: column-reverse;
+    }
+
+    .Recipes__top__button {
+        margin: 5% auto;
+    }
+
+    .Recipes__top__button h3 {
+        font-size: 13px;
+
+    }
+
+    .resipes__left {
+        width: 100%;
+        text-align: center;
+    }
+
+    .resipes__right {
+        width: 100%;
+    }
+
+    .resipes__left__title {
+        width: 100%;
+        font-size: 40px;
+    }
+
+    .resipes__lorem {
+        line-height: 20px;
+        font-size: 14px;
+    }
+
+    .resipesbuttons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .user {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .user__start {
+        gap: 5px;
+    }
+
+    .user__img {
+        font-size: 8px;
+    }
+
+    .john {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .user__text {
+        font-size: 12px;
+        width: 100%;
+    }
+
+    .user__end {
+        width: 150px;
+        height: 50px;
+    }
+
+    .user__end p {
+        font-size: 12px;
+    }
+
+    /* catigories */
+
+    .catigories__text {
+        font-size: 44px;
+    }
+
+    .catigories__right {
+        margin: 5% auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        row-gap: 50px;
+    }
+
+    .cart {
+        margin: 10% auto; 
+    }
+
+    /* simpl */
+
+    .simple__card__text {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .simple__bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    #card6 {
+        display: none;
+    }
+
+    /* chefr citchen */
+
+    .explanation {
+        flex-direction: column;
+    }
+
+    .explanation__left {
+        text-align: center;
+    }
+
+    .explanation__btn {
+        margin: 2% auto;
+    }
+
+    .explanation__right img {
+        width: 100%;
+    }
+
+    .explanation__right {
+        width: 100%;
+    }
+
+    /* instagram */
+
+    .cheek__cards {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 30px;
+    }
+
+    .cheek__title {
+        font-size: 34px;
+    }
+
+    .cheek__dec {
+        line-height: 20px;
+    }
+
+    .cheekcard {
+        margin: 0 auto;
+    }
+
+    .check__btn{
+        width: 200px;
+        height: 50px;
+    }
+
+    /* simple repet */
+
+    .dimple__repet__title {
+        font-size: 24px;
+    }
+
+    .simple__repet__dec {
+        font-size: 8px;
+        line-height: 14px;
+    }
+
+    .simple__repet__bottom {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .simple__repettitle {
+        font-size: 15px;
+    }
+
+    .simple__repet__bottom__icon__title {
+        font-size: 12px;
+    }
+
+    .heart__icon {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* inbox */
+
+    .inbox__main{
+        width: 100%;
+    }
+
+    .inbox__title {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    .inbox__dec {
+        line-height: 14px;
+        font-size: 8px;
+    }
+
+    .inbox__input {
+        width: 100%;
+        padding: 10px;
+        border-radius: 16px;
+    }
+
+    .inbox__input input {
+        font-size: 10px;
+    }
+
+    .inbox__btn {
+        width: 80px;
+        height: 30px;
+        border-radius: 12px;
+        font-size: 8px;
+    }
+
+    .footer__start{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+    }
+
+    .footer__end{
+
+    }
+
+    .footerend__tart{
+        display: none;
+    }
+
+
+
+}
+
+@media (max-width:300px) {
+
+
+    .header__collect {
+        display: none;
+    }
+
+    .header__icons{
+        display: none;
+
+    }
+
     #bars{
         display: block;
     }
-    .Recipes__top__button{
-        margin: 0 auto;
-    }
-    .resipes__lorem{
-        display: none;
-    }
-    .resipesbuttons{
-        margin: 10% auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .user{
-        margin: 0 auto;
-    }
 
-    .resipes__right{
-        display: none;
-    }
 
-    .catigories__right{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 10% auto;
-       
-    }
-    .cart{
-        margin: 10% auto;
-    }
+    /* resips */
 
-    .simple__bottom{
-        margin:0 auto ;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-    #card6{
-        display: none;
-    }
 
-    .explanation__left{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .explanation{
+    .resipes {
         flex-direction: column-reverse;
     }
-    
-    .explanation__text{
-        font-size: 15px;
-    }
-    .explanation__lorem{
-        display: none;
+
+    .Recipes__top__button {
+        width: 125px;
+        height: 35px;
+        margin: 5% auto;
     }
 
-    .explanation__right img{
-        width: 100%;
-    }
-
-    .explanation__right{
-       
-        margin: 0 auto;
+    .Recipes__top__button h3 {
+        font-size: 10px;
 
     }
 
-    .cheek__cards{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 10% auto;
-        gap: 5%;
-    }
-    .simple__repet__dec{
-        display: none;
-    }
-    .cheek__dec{
-        display: none;
-    }
-    .dimple__repet__title{
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .simple__repet__bottom{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 5%;
-    }
-    .inbox{
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url(./cokkingimgs/inbox__bagckraund__img\ \(1\).png);
-        display: none;
-    }
-
-
-    .inbox__main{
-        width: 100%;
-        height: auto;
-    }
-    .inbox__dec{
-        display: none;
-    }
-
-    .inbox__title{
+    .resipes__left {
         width: 100%;
         text-align: center;
     }
 
-    .footer__start{
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-
-
-
-}
-
-
-@media (max-width: 600px){
-  .nav{
-    margin: 0 auto;
-    justify-content: space-between;
-  }
-  .header__collect{
-    display: none;
-  }
-    .resipes{
-        flex-direction: column;
-    }
-    .resipes__left{
+    .resipes__right {
         width: 100%;
-        text-align: center;
     }
-    #bars{
-        display: block;
+
+    .resipes__left__title {
+        width: 100%;
+        font-size: 24px;
     }
-    .Recipes__top__button{
-        margin: 0 auto;
+
+    .resipes__lorem {
+        line-height: 10px;
+        font-size: 8px;
     }
-    .resipes__lorem{
-        display: none;
-    }
-    .resipesbuttons{
-        margin: 10% auto;
+
+    .resipesbuttons {
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-    
-    .user{
-        margin: 0 auto;
+        justify-content: space-between;
     }
 
-    .resipes__right{
-        display: none;
-    }
-
-    .catigories__right{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 10% auto;
-       
-    }
-    .cart{
-        margin: 10% auto;
-    }
-
-    .simple__bottom{
-        margin:0 auto ;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-
-    .simple__card__text{
-        font-size: 15px;
-    }
-    .dimple__repet__title{
-        font-size: 30px;
-    }
-    .simple__repettitle{
-        font-size: 15px;
-    }
-    
-    #card6{
-        display: none;
-    }
-
-    .explanation__left{
-        width: 100%;
-        text-align: center;
-        margin: 0 auto;
-    }
-
-    .explanation{
-        flex-direction: column-reverse;
-    }
-    
-    .explanation__text{
-        font-size: 15px;
-    }
-    .explanation__lorem{
-        display: none;
-    }
-
-    .explanation__right img{
-        width: 100%;
-    }
-
-    .explanation__right{
-       
-        margin: 0 auto;
-
-    }
-
-    .cheek__cards{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        
-        gap: 5%;
-    }
-    .simple__repet__dec{
-        display: none;
-    }
-    .cheek__dec{
-        display: none;
-    }
-    .dimple__repet__title{
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .simple__repet__bottom{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 5%;
-    }
-
-
-    .footer__start{
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-
-
-
-}
-
-
-
-
-@media (max-width: 500px){
-  .nav{
-    margin: 0 auto;
-  }
-
-  .logo{
-    font-size: 20px;
-  }
-  .chikken{
-    font-size: 40px;
-  }
-    .header__icons{
-        display: none;
+    .resipes__buton{
+        font-size: 6px;
         gap: 5px;
     }
-    .resipes{
-        flex-direction: column;
+
+    .resipes__buton img{
+        width: 13px;
     }
-    .resipes__left{
+
+    .user {
         width: 100%;
-        text-align: center;
-    }
-
-    .user{
-        flex-direction: column;
-        gap: 20px;
-    }
-
-   .user__start{
-    width: 300px;
-   }
-
-
-    .Recipes__top__button{
-        margin: 0 auto;
-    }
-    .resipes__lorem{
-        display: none;
-    }
-    .resipesbuttons{
-        margin: 10% auto;
         display: flex;
         align-items: center;
-        justify-content: center;
-    }
-    
-    .user{
-        margin: 0 auto;
-    }
-
-    .resipes__right{
-        display: none;
-    }
-
-    .catigories__right{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: 10% auto;
-       
-    }
-
-    .catigories__text{
-        font-size: 30px;
-    }
-    .cart{
-        margin: 10% auto;
-    }
-
-    .simple__bottom{
-        margin:0 auto ;
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    
-    #card6{
-        display: none;
-    }
-
-    .explanation__left{
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
-    .explanation__right{
-        /* display: none; */
-    }
-
-    .cheek__cards{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        display: flex;
-        align-items: center;
-        justify-content: center;
         flex-direction: column;
-        gap: 50px;
-    }
-    .simple__repet__dec{
-        display: none;
-    }
-    .cheek__dec{
-        display: none;
+        gap: 10px;
     }
 
-    .cheek__title{
-        font-size: 30px;
-    }
-    .dimple__repet__title{
-        width: 100%;
-        text-align: center;
-
-    }
-
-    .simple__repet__bottom{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: 5%;
-    }
-    .inbox{
-        object-fit: cover;
-        background-image: url(/cokkingimgs/inbox__bagckraund__img\ \(1\).png);
-    }
-
-
-    .inbox__main{
-        width: 100%;
-        height: auto;
-    }
-    .inbox__dec{
-        display: none;
-    }
-
-    .inbox__title{
-        width: 100%;
-        text-align: center;
-    }
-
-    .footer__start{
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-
-
-
-}
-
-
-
-
-@media (max-width: 300px){
-  .nav{
-    margin: 0 auto;
-  }
-    .header__icons{
-        display: none;
+    .user__start {
         gap: 5px;
     }
-    .resipes{
+
+    .user__img {
+        width: 15px;
+    }
+
+    .john {
+        font-size: 10px;
+        width: 100%;
+    }
+
+    .user__text {
+        font-size: 8px;
+        width: 100%;
+    }
+
+    .user__end {
+        width: 130px;
+        height: 30px;
+    }
+
+    .user__end p {
+        font-size: 10px;
+    }
+
+    .blac__button{
+        width: 20px;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    /* catigories */
+
+    .catigories__text {
+        font-size: 24px;
+    }
+
+    .catogires__btn{
+        padding: 10px;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+
+    .catigories__right {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        row-gap: 50px;
+    }
+
+    .cart {
+       margin-top: 10%; 
+    }
+
+    /* simpl */
+
+    .simple__text{
+        font-size: 30px;
+    }
+
+    .simple__lorem{
+        line-height: 16px;
+        font-size: 12px
+    }
+
+    .simple__card__text {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .simple__bottom {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+    }
+
+    #card6 {
+        display: none;
+    }
+
+    /* chefr citchen */
+
+    .explanation {
         flex-direction: column;
     }
-    .resipes__left{
+
+    .explanation__left {
+        text-align: center;
+    }
+
+    .explanation__text{
+        font-size: 24px;
+    }
+
+    .explanation__lorem{
+        font-size: 10px;
+        line-height: 10px;
+    }
+
+    .explanation__btn {
+        width: 100px;
+        height: 30px;
+        font-size: 10px;
+        margin: 5% auto;
+    }
+
+    .explanation__right img {
         width: 100%;
-        text-align: center;
-    }
-    .Recipes__top__button{
-        margin: 0 auto;
-    }
-    .resipes__lorem{
-        display: none;
-    }
-    .resipesbuttons{
-        margin: 10% auto;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .user{
-        margin: 0 auto;
     }
 
-    .resipes__right{
-        display: none;
-    }
-
-    .catigories__right{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        margin: 10% auto;
-       
-    }
-    .cart{
-        margin: 10% auto;
-    }
-
-    .simple__bottom{
-        margin:0 auto ;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    
-    #card6{
-        display: none;
-    }
-
-    .explanation__left{
-        text-align: center;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 auto;
-    }
-
-    .explanation__right{
-        display: none;
-    }
-
-    .cheek__cards{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 10% auto;
-    }
-    .simple__repet__dec{
-        display: none;
-    }
-    .cheek__dec{
-        display: none;
-    }
-    .dimple__repet__title{
+    .explanation__right {
         width: 100%;
-        text-align: center;
-
     }
 
-    .simple__repet__bottom{
+    /* instagram */
+
+    .cheek__cards {
+        width: 100%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-        margin: 5%;
-    }
-    .inbox{
-        background-size: 100%;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-image: url(./cokkingimgs/inbox__bagckraund__img\ \(1\).png);
-        display: none;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 30px;
     }
 
+
+
+    .cheek__title {
+        font-size: 26px;
+    }
+
+    .cheek__dec {
+        font-size: 8px;
+        line-height: 10px;
+    }
+
+    .cheekcard {
+        width: 100%;
+    }
+
+    .check__btn{
+        width: 120px;
+        height: 30px;
+        font-size: 10px;
+        border-radius: 10px;
+    }
+
+    /* simple repet */
+
+    .dimple__repet__title {
+        font-size: 10px;
+    }
+
+    .simple__repet__dec {
+        font-size: 5px;
+        line-height: 10px;
+    }
+
+    .simple__repet__bottom {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+    }
+
+    .simple__repettitle {
+        font-size: 15px;
+    }
+
+    .simple__repet__bottom__icon__title {
+        font-size: 12px;
+    }
+
+    .heart__icon {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    /* inbox */
 
     .inbox__main{
         width: 100%;
-        height: auto;
-    }
-    .inbox__dec{
-        display: none;
     }
 
-    .inbox__title{
+    .inbox__title {
         width: 100%;
-        text-align: center;
+        font-size: 16px;
+    }
+
+    .inbox__dec {
+        line-height: 10px;
+        font-size: 8px;
+    }
+
+    .inbox__input {
+        width: 100%;
+        padding: 5px;
+        border-radius: 16px;
+    }
+
+    .inbox__input input {
+        font-size: 10px;
+    }
+
+    .inbox__btn {
+        width: 80px;
+        height: 30px;
+        border-radius: 12px;
+        font-size: 8px;
     }
 
     .footer__start{
+        display: flex;
         flex-direction: column;
         text-align: center;
-        gap: 20px;
+        gap: 30px;
     }
 
+    .footer__end{
+
+    }
+
+    .footerend__tart{
+        display: none;
+    }
+
+    .footer__start__right{
+        display: none;
+    }
+
+    .footer__icons{
+        display: none;
+    }
+
+    .footer__end{
+       text-align: center;
+    }
 
 
 
 }
-
-
-
 
 
