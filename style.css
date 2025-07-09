@@ -532,8 +532,6 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 526px;
-    height: 300px;
 
 }
 
@@ -1846,12 +1844,10 @@
     }
     .explanation__lorem{
        font-size: 9px;
-       width: 80%;
-       margin: 0 auto;
-       
     }
 
     .explanation__left {
+        width: 100%;
         text-align: center;
     }
 
