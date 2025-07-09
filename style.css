@@ -1815,6 +1815,10 @@
         line-height: 15px;
     }
 
+    .simple__text{
+        font-size: 20px;
+    }
+
     .simple__lorem{
         font-size: 8px;
         line-height: 15px;
@@ -1841,7 +1845,9 @@
         font-size: 20px;
     }
     .explanation__lorem{
-      display: none;
+       font-size: 9px;
+       width: 80%;
+       margin: 0 auto;
        
     }
 
