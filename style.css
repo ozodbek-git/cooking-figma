@@ -625,10 +625,12 @@
 
 .cheek__cards {
     margin: 10% auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 20px;
 }
 
 .cheekcard {
-    
     background-color: #ffff;
 }
 
@@ -1349,8 +1351,8 @@
 
     .cheek__cards {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         row-gap: 30px;
     }
 
@@ -1387,16 +1389,16 @@
 
     .inbox__title {
         width: 100%;
-        font-size: 26px;
+        font-size: 40px;
     }
 
     .inbox__dec {
         line-height: 20px;
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .inbox__input {
-        width: 100%;
+        width: 60%;
         padding: 10px;
         border-radius: 16px;
     }
@@ -1409,6 +1411,9 @@
         width: 140px;
         height: 40px;
         border-radius: 12px;
+    }
+    .inbox__main{
+        width: 100%;
     }
 
 
@@ -1423,9 +1428,14 @@
     .header__collect {
         display: none;
     }
+    #bars{
+        display: block;
+    }
 
 
     /* resips */
+
+
 
 
     .resipes {
@@ -1507,6 +1517,7 @@
         font-size: 44px;
     }
 
+
     .catigories__right {
         margin: 5% auto;
         display: grid;
@@ -1517,6 +1528,14 @@
 
     .cart {
         margin: 10% auto; 
+        width: 100%;
+       
+        
+
+    }
+
+    .catigories__img{
+        width: 40%;
     }
 
     /* simpl */
@@ -1539,7 +1558,15 @@
     /* chefr citchen */
 
     .explanation {
-        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+
+    .explanation__text{
+        font-size: 30px;
+    }
+
+    .explanation__lorem{
+        font-size: 15px;
     }
 
     .explanation__left {
@@ -1623,29 +1650,29 @@
 
     .inbox__title {
         width: 100%;
-        font-size: 24px;
+        font-size: 30px;
     }
 
     .inbox__dec {
-        line-height: 14px;
-        font-size: 8px;
+        line-height: 15px;
+        font-size:14px;
     }
 
     .inbox__input {
-        width: 100%;
+        width: 60%;
         padding: 10px;
         border-radius: 16px;
     }
 
     .inbox__input input {
-        font-size: 10px;
+        font-size: 14px;
     }
 
     .inbox__btn {
         width: 80px;
         height: 30px;
         border-radius: 12px;
-        font-size: 8px;
+        font-size: 12px;
     }
 
     .footer__start{
@@ -1788,6 +1815,11 @@
         line-height: 15px;
     }
 
+    .simple__lorem{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
     .simple__bottom {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -1804,12 +1836,12 @@
         flex-direction: column;
     }
     .explanation__text{
-        font-size: 26px;
+        font-size: 20px;
     }
     .explanation__lorem{
-       font-size: 12px;
+       font-size: 8px;
         line-height: 15px;
-        width: 100%;
+       
     }
 
     .explanation__left {
@@ -1942,6 +1974,22 @@
 
 }
 
+
+@media (max-width:450px){
+    .dimple__repet__title{
+        font-size: 14px;
+    }
+
+    .simple__repet__dec{
+        font-size: 10px;
+    }
+
+    .inbox__input {
+        width: 100%;
+    }
+}
+
+
 @media (max-width:300px) {
 
 
@@ -1954,9 +2002,7 @@
 
     }
 
-    #bars{
-        display: block;
-    }
+
 
 
     /* resips */
