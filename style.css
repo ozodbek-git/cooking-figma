@@ -1816,8 +1816,10 @@
     }
 
     .simple__lorem{
-        font-size: 12px;
+        font-size: 8px;
         line-height: 15px;
+        width: 80%;
+        margin: 0 auto;
     }
 
     .simple__bottom {
@@ -1839,8 +1841,7 @@
         font-size: 20px;
     }
     .explanation__lorem{
-       font-size: 8px;
-        line-height: 15px;
+      display: none;
        
     }
 
