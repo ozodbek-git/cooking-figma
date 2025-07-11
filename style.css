@@ -231,7 +231,7 @@
 .resipes__right {
     width: 50%;
     border-radius: 50px;
-    transition: all 3s;
+    transition: all 2s;
     
      
     
@@ -824,7 +824,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 5% auto;
 
 }
 
@@ -1137,9 +1136,14 @@
     }
 
 }
+@media (max-width:1100){
+   .resipes__left__title{
+    font-size: 30px;
+   } 
+}
 
 
-@media (max-width:1050px) {
+@media (max-width:1100px) {
 
 
     /* resips */
@@ -1148,7 +1152,6 @@
         font-size: 40px;
     }
 
-    .resipesbuttons {}
 
     .user__end {
         width: 150px;
@@ -1241,6 +1244,10 @@
         font-size: 13px;
     }
 
+    .simple__repet__top{
+       margin: 5% auto;
+    }
+
     .simple__repettitle {
         font-size: 15px;
     }
@@ -1263,6 +1270,14 @@
 
     .inbox__title {
         font-size: 50px;
+    }
+
+    .inbox__dec{
+        font-size: 20px;
+    }
+
+    .inbox__input {
+       width: 60%;
     }
 
 
@@ -1476,74 +1491,22 @@
         flex-direction: column-reverse;
     }
 
-    .Recipes__top__button {
-        margin: 5% auto;
-    }
 
-    .Recipes__top__button h3 {
-        font-size: 13px;
 
-    }
 
-    .resipes__left {
-        width: 100%;
-        text-align: center;
-    }
+
 
     .resipes__right {
         width: 100%;
     }
 
-    .resipes__left__title {
-        width: 100%;
-        font-size: 40px;
-    }
+  .resipes__left{
+    width: 60%;
+  }
 
-    .resipes__lorem {
-        line-height: 20px;
-        font-size: 14px;
-    }
 
-    .resipesbuttons {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
 
-    .user {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 30px;
-    }
 
-    .user__start {
-        gap: 5px;
-    }
-
-    .user__img {
-        font-size: 8px;
-    }
-
-    .john {
-        font-size: 14px;
-        width: 100%;
-    }
-
-    .user__text {
-        font-size: 12px;
-        width: 100%;
-    }
-
-    .user__end {
-        width: 150px;
-        height: 50px;
-    }
-
-    .user__end p {
-        font-size: 12px;
-    }
 
     /* catigories */
 
@@ -1726,6 +1689,16 @@
 
 }
 
+@media (max-width:550px){
+    .resipes__left{
+        width: 80%;
+    }
+
+    .simple__lorem{
+        font-size: 14px;
+    }
+}
+
 
 
 
@@ -1801,6 +1774,8 @@
     .john {
         font-size: 14px;
         width: 100%;
+
+ 
     }
 
     .user__text {
@@ -1844,7 +1819,7 @@
     /* simpl */
 
     .simple__card__text {
-        font-size: 14px;
+        font-size: 30px;
         line-height: 15px;
     }
 
@@ -1930,12 +1905,23 @@
     /* simple repet */
 
     .dimple__repet__title {
-        font-size: 18px;
+        font-size: 70px;
+        width: 100%;
+    }
+
+
+    .simple__repet__top{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 15% 0;
+        gap: 15px;
     }
 
     .simple__repet__dec {
         font-size: 8px;
         line-height: 10px;
+        width: 100%;
     }
 
     .simple__repet__bottom {
@@ -1976,12 +1962,13 @@
 
     .inbox__input {
         width: 100%;
-        padding: 10px;
+        padding: 5px 10px;
         border-radius: 16px;
     }
 
     .inbox__input input {
-        font-size: 10px;
+        font-size: 14px;
+
     }
 
     .inbox__btn {
@@ -2015,11 +2002,23 @@
 
 @media (max-width:450px) {
     .dimple__repet__title {
-        font-size: 14px;
+        font-size: 35px;
+        width: 100%;
+    }
+
+
+    .simple__repet__top{
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        margin: 15% 0;
+        gap: 15px;
     }
 
     .simple__repet__dec {
-        font-size: 10px;
+        font-size: 16px;
+        line-height: 17px;
+        width: 100%;
     }
 
     .inbox__input {
@@ -2178,7 +2177,7 @@
     /* simpl */
 
     .simple__text {
-        font-size: 30px;
+        font-size: 0px;
     }
 
     .simple__lorem {
@@ -2362,7 +2361,7 @@
 
 @media (max-width:800px){
     .resipes__left__title{
-        font-size: 36px;
+        font-size: 40px;
     }
     .resipes__lorem{
         font-size: 12px;
